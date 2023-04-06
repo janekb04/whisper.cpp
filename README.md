@@ -313,7 +313,7 @@ whisper_print_timings:    total time = 32733.52 ms
 ## Real-time audio input example
 
 This is a naive example of performing real-time inference on audio from your microphone.
-The [stream](examples/stream) tool samples the audio every half a second and runs the transcription continously.
+The [stream](examples/stream) tool samples the audio every half a second and runs the transcription continuously.
 More info is available in [issue #10](https://github.com/ggerganov/whisper.cpp/issues/10).
 
 ```java
@@ -500,6 +500,7 @@ Some of the examples are even ported to run in the browser using WebAssembly. Ch
 | [stream](examples/stream) | [stream.wasm](examples/stream.wasm) | Real-time transcription of raw microphone capture |
 | [command](examples/command) | [command.wasm](examples/command.wasm) | Basic voice assistant example for receiving voice commands from the mic |
 | [talk](examples/talk) | [talk.wasm](examples/talk.wasm) | Talk with a GPT-2 bot |
+| [talk-llama](examples/talk-llama) | | Talk with a LLaMA bot |
 | [whisper.objc](examples/whisper.objc) | | iOS mobile application using whisper.cpp |
 | [whisper.swiftui](examples/whisper.swiftui) | | SwiftUI iOS / macOS application using whisper.cpp |
 | [whisper.android](examples/whisper.android) | | Android mobile application using whisper.cpp |
